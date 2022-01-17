@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './topbar.css';
+import nicoRobin from '../widget/Nico-Robin.jfif';
 
 import { NotificationsNone, Language, Settings } from '@mui/icons-material';
 
@@ -24,7 +25,7 @@ const TopBar = () => {
                         <Settings />
                     </div>
 
-                    <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="top-avatar" />
+                    <img src={nicoRobin} alt="profile" className="top-avatar" />
                 </div>
             </div>
         </div>
